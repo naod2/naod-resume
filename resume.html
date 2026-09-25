@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Naod Zeleke — Resume</title>
+<style>
+  :root{
+    --bg:#ffffff; --text:#1a1a1a; --muted:#5a5a5a; --accent:#1f5c4f; --line:#e2e2e2;
+    box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){ --bg:#111412; --text:#eaeaea; --muted:#a5a5a5; --accent:#5fd6b6; --line:#2a2f2c; }
+  }
+  :root[data-theme="dark"]{ --bg:#111412; --text:#eaeaea; --muted:#a5a5a5; --accent:#5fd6b6; --line:#2a2f2c; }
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg); color:var(--text); margin:0; font-family:'Georgia',serif;
+    line-height:1.5;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:2.5rem 1.5rem 4rem;}
+  header{text-align:center; margin-bottom:1.75rem;}
+  h1{font-size:2rem; letter-spacing:0.03em; margin:0 0 0.3rem;}
+  .contact{color:var(--muted); font-size:0.92rem; font-family:Arial,Helvetica,sans-serif;}
+  .contact a{color:var(--accent); text-decoration:none;}
+  h2{
+    font-family:Arial,Helvetica,sans-serif; font-size:0.78rem; letter-spacing:0.12em; text-transform:uppercase;
+    color:var(--accent); border-bottom:1px solid var(--line); padding-bottom:0.35rem; margin:2rem 0 0.9rem;
+  }
+  section:first-of-type h2{margin-top:0;}
+  p{margin:0 0 0.9rem; font-size:0.98rem;}
+  ul{margin:0 0 0.9rem; padding-left:1.15rem;}
+  li{margin-bottom:0.35rem; font-size:0.96rem;}
+  .job, .proj, .edu{margin-bottom:1.1rem;}
+  .row{display:flex; justify-content:space-between; gap:1rem; font-family:Arial,Helvetica,sans-serif;}
+  .role{font-weight:bold;}
+  .org{color:var(--muted); font-style:italic; font-size:0.92rem;}
+  .dates{color:var(--muted); font-size:0.85rem; white-space:nowrap; font-family:Arial,Helvetica,sans-serif;}
+  .skills-grid{display:grid; grid-template-columns:auto 1fr; gap:0.4rem 0.8rem; font-family:Arial,Helvetica,sans-serif; font-size:0.92rem;}
+  .skills-grid dt{color:var(--accent); font-weight:bold;}
+  .skills-grid dd{margin:0; color:var(--text);}
+  .certs{font-family:Arial,Helvetica,sans-serif; font-size:0.92rem; padding-left:1.15rem; margin:0;}
+  @media print{ body{background:#fff; color:#000;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>NAOD ZELEKE</h1>
+  <div class="contact">
+    Toronto, ON &nbsp;•&nbsp; (647) 607-9306 &nbsp;•&nbsp;
+    <a href="mailto:naodzemedkun1@gmail.com">naodzemedkun1@gmail.com</a><br>
+    LinkedIn &nbsp;•&nbsp; GitHub
+  </div>
+</header>
+
+<section>
+  <h2>Professional Summary</h2>
+  <p>Master of Information Technology Security (Artificial Intelligence) graduate student at Ontario Tech University with a background in software development, secure software engineering, and cybersecurity governance. Experienced in Python, Java, SQL, JavaScript, Microsoft Azure, Git, and secure coding practices. Passionate about developing secure, scalable applications and applying cybersecurity principles to solve real-world challenges. Seeking a Cybersecurity or Software Development Internship.</p>
+</section>
+
+<section>
+  <h2>Technical Skills</h2>
+  <dl class="skills-grid">
+    <dt>Programming</dt><dd>Python, Java, SQL, JavaScript, HTML5, CSS3</dd>
+    <dt>Cybersecurity</dt><dd>Secure Software Development, Security Governance, Access Control (RBAC), Risk Assessment, Static Code Analysis (Cppcheck)</dd>
+    <dt>Cloud &amp; Tools</dt><dd>Microsoft Azure (AZ-900), Azure AI (AI-900), Git, GitHub, Linux, VS Code, Jira, Confluence, WordPress</dd>
+    <dt>Databases</dt><dd>MySQL, SQLite</dd>
+    <dt>Methodologies</dt><dd>Agile, Scrum, Waterfall, Kanban</dd>
+  </dl>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="edu">
+    <div class="row"><span class="role">Master of Information Technology Security (Artificial Intelligence)</span><span class="dates">Expected 2027</span></div>
+    <div class="org">Ontario Tech University — Oshawa, ON</div>
+    <p style="margin-top:0.4rem;">Relevant Coursework: Secure Software Systems • Security Policies &amp; Risk Management • Complex Networks</p>
+  </div>
+  <div class="edu">
+    <div class="row"><span class="role">Bridge to Cloud Computing &amp; Big Data Professional Development</span><span class="dates">Mar 2024</span></div>
+    <div class="org">Seneca Polytechnic — Toronto, ON</div>
+  </div>
+  <div class="edu">
+    <div class="row"><span class="role">Bachelor of Engineering — Electrical &amp; Computer Engineering</span><span class="dates">Jul 2019</span></div>
+    <div class="org">Wollo University — Kombolcha, Ethiopia</div>
+  </div>
+</section>
+
+<section>
+  <h2>Professional Experience</h2>
+  <div class="job">
+    <div class="row"><span class="role">Software Developer</span><span class="dates">Jan 2021 – Apr 2023</span></div>
+    <div class="org">Zemagel School — Dessie, Ethiopia</div>
+    <ul>
+      <li>Developed and maintained software applications using modern software engineering practices.</li>
+      <li>Improved application performance through debugging, testing, and code optimization.</li>
+      <li>Automated repetitive development tasks, increasing productivity and reducing development time.</li>
+      <li>Collaborated with stakeholders to gather requirements and implement software enhancements.</li>
+      <li>Participated in code reviews and applied secure coding principles to improve software quality.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="proj">
+    <div class="role">Employee Monitoring Security Policies</div>
+    <ul><li>Developed enterprise security governance policies addressing access control, data retention, and regulatory compliance using NIST SP 800-53, PIPEDA, OSFI B-13, and PCI DSS.</li></ul>
+  </div>
+  <div class="proj">
+    <div class="role">Office Eats</div>
+    <ul><li>Developed a responsive web application using HTML, CSS, JavaScript, WordPress, Git, and GitHub.</li></ul>
+  </div>
+  <div class="proj">
+    <div class="role">University Web Crawler</div>
+    <ul><li>Built a Python-based web crawler to automate website data collection and processing.</li></ul>
+  </div>
+  <div class="proj">
+    <div class="role">Static Code Analysis</div>
+    <ul><li>Conducted static code analysis using Cppcheck to identify code quality and security issues.</li></ul>
+  </div>
+</section>
+
+<section>
+  <h2>Certifications</h2>
+  <ul class="certs">
+    <li>Microsoft Azure Fundamentals (AZ-900)</li>
+    <li>Microsoft Azure AI Fundamentals (AI-900)</li>
+    <li>Professional Scrum Master I (PSM I)</li>
+  </ul>
+</section>
+
+</div>
+</body>
+</html>
